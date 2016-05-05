@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+@import url(https://fonts.googleapis.com/css?family=Prata);
+
+html, body{
+  margin: 0;
+  padding:0;
+  background: url('http://www.latablavero.com/wp-content/uploads/2014/09/Light-Wood-Background.jpg');
+  color:white;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Prata', serif;
+  text-transform: uppercase;
+  letter-spacing;3px;
+}
+
+p{
+  text-align: center;
+  font-size:1.6em
+}
+
+.btn{
+  background-color: #F46036;
+  border:none;
+  padding: 1.5em 3em;
+  text-transform:uppercase;
+  color: white;
+  font-size:.8em;
+  border-radius:10px;
+  display:inlin-block;
+  position:relative;
+  left:40%;
+  curson:pointer;
+  -webkit-transition: .25s all ease;
+  -moz-transition: .25s all ease;
+  -ms-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+.btn:hover{
+  background-color:rgba(244.96,54,.8)
+}
+
+.textBlock{
+  text-align:center;
+  background-color: rgba(95,65,72,.8);
+}
+
+h2{
+  font-family: 'Amatic SC';
+  font-size:4em;
+}
+
+h5{
+  font-family: 'Sue Ellen Francisco';
+  font-size:1.5em;
+  margin-top:-1.5em
+}
